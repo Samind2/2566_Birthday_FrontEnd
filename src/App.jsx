@@ -14,6 +14,7 @@ function App() {
   
       <div>
         <h1>Workshop1 : Brithday List Project</h1>
+        <h2>Supanee Rungsirat</h2>
         <main>
           <section className="container">
           <h3>{people.length} birthday today</h3>
