@@ -2,20 +2,20 @@
 variable
  */
 :root{
-  --clr-pink:#F28AB2;
+  --clr-pink:#26c6da;
   --spacing:0.1rem;
-  --clr-gay1:hsl(209,61%,16%);
-  --clr-gay2:hsl(210,22%,49%);
+  --clr-gay1:#80deea;
+  --clr-gay2:#0097a7;
   --max-width:1170px;
   --clr-white:#fff;
   --radius:0.25rem;
   --fixed-width:450px;
-  --dark-shadow:0 5px 15px rgba(0,0,0,0.4);
-  --light-shadow:0 5px 15px rgba(0,0,0,0.1);
+  --dark-shadow:0 5px 15px #00838f;
+  --light-shadow:0 5px 15px rgba(255, 255, 255, 0.1);
 }
 /*Glogal Style*/
 *,::after, ::before{
-  margin: 0;
+  margin: 3;
   padding: 0;
   box-sizing: border-box;
 }
@@ -117,7 +117,7 @@ main{
   padding: 0.5rem 0;
   letter-spacing: var(--spacing);
   border-radius: var(--radius);
-  outline: 1px solid rgba(242, 138, 178, 0.8);
+  outline: 1px solid #26c6da;
 }
 /*peoson*/
 .person{
